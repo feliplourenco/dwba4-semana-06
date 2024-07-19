@@ -4,13 +4,47 @@
 		width: 100%;
 		float: right;		
 		}
-		
+
+.boxImage{
+    display: grid;
+
+    align-content: end;
+    gap: 50px;
+    background-color: brown;
+    border: solid black;
+
+}
+        
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .grid-item img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .grid-item p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
 img {
-  border-radius: 50%;
-  display: block;
+
+
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 200px;
 }
 
 figure {
